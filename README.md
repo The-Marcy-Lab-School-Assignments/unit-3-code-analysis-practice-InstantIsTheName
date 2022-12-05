@@ -23,3 +23,5 @@ forEach(['a', 'b', 'c'], console.log);
 <hr>
 
 Your explanation here...
+
+In the first line the funciton `for each` is declared with two parameters: `arr` and `action`. Within the block scope, arr is iterated to `arr.length` and each element is changed by the parameter's function. When `for each` is involked, it has an array with the values `a,b,c` and the action of console logging. Laslty, it's iterated through the array and console logged. 
